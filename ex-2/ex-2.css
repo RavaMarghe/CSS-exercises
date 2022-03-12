@@ -27,7 +27,7 @@ body {
 }
 
 #expand-toggle:checked ~ #expand-btn {
-	background-color: #ff88ff;
+	background-color: #88ff88;
 }
 
 #expand-toggle:checked ~ #expand-btn::before {
