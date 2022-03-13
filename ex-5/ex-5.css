@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#green {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+#yellow {
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+#red {
+    grid-area: 2 / 3 / 4 / 4;
+}
