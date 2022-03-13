@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#yellow {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+ul {
+    display: flex;
+}
+
+#one {
+    flex-grow: 2;
+}
+
+.li-yellow {
+    flex-grow: 1;
+}
+
+#blue {
+    grid-area: 2 / 1 / 5 / 2;
+}
+
+#orange {
+    grid-area: 2 / 2 / 3 / 5;
+}
+
+#red {
+    grid-area: 3 / 2 / 4 / 5;
+}
+
+#red li {
+    flex-grow: 1;
+}
+
+#green {
+    grid-area: 4 / 2 / 5 / 5;
+}
+
