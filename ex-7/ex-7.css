@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#green {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+#yellow {
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+#yellow ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#red {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#red ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#blue {
+    grid-area: 2 / 3 / 5 / 4;
+}
+
+#orange {
+    grid-area: 4 / 1 / 5 / 3;
+}
