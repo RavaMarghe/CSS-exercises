@@ -1,5 +1,5 @@
 :root {
-    --green: #009f4d;
+    --orange: #ff8800;
     --background: #011212;
 }
 
@@ -8,9 +8,8 @@ body {
 }
 
 .ball {
-    width: 50%;
-    height: 50px;
-    background-color: var(--green);
-    border-radius: .8rem;
-    animation: move 5s infinite;
+    width: 100px;
+    height: 100px;
+    background-color: var(--orange);
+    border-radius: 50px;
 }
