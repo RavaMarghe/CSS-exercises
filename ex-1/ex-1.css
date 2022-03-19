@@ -1,12 +1,16 @@
+:root {
+    --green: #009f4d;
+    --background: #011212;
+}
+
 body {
-    background-color: #011212;
+    background-color: var(--background);
 }
 
 .ball {
     width: 50%;
     height: 50px;
-    /*background-color: #ff8800;*/
-    background-color: #009f4d;
+    background-color: var(--green);
     border-radius: .8rem;
     animation: move 5s infinite;
 }
